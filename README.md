@@ -1,5 +1,5 @@
 # DockerImage
--------------
+
 In this project, I have delineated the steps to create a docker image. In case you're not familiar with Docker, here's a brief [Overview of Docker](https://docs.docker.com/engine/understanding-docker/)
 
 > Note: This tutorial uses version **1.11.0** of Docker. If you find any part of the tutorial incompatible with a future version, please raise an issue. Thanks!
