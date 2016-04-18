@@ -5,7 +5,7 @@ In this project, I have delineated the steps to create a docker image. In case y
 > Note: This tutorial uses version **1.11.0** of Docker. If you find any part of the tutorial incompatible with a future version, please raise an issue. Thanks!
 
 
-### Prerequisites
+## Prerequisites
 -----------------
 #### Docker
 The *getting started* guide on Docker has detailed instructions for setting up Docker on [Mac](http://docs.docker.com/mac/step_one/), [Linux](http://docs.docker.com/linux/step_one/) and [Windows](http://docs.docker.com/windows/step_one/).
@@ -43,6 +43,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.60-b23, mixed mode)
 ___________
 
 ## Webapps with Docker
+----------------------
 Now that we have looked at `docker run`, let's deploy web applications with docker. We can download and run the image directly in one go using `docker run`.
 
 ```
@@ -67,7 +68,8 @@ $ docker-machine ip default
 Based on above output, you can now open http://192.168.99.100:8080/TwitterStream/index.html to see your Twitter Heat Map.
 Kill the above running image.
 
-### Build Your Own Docker Image
+## Build Your Own Docker Image
+------------------------------
 Now we will build our own image using a [Dockerfile](https://docs.docker.com/engine/reference/builder/). I have added the Dockerfile and the TwitterHeatMap.war used in this example to the repository.
 
 Let me deconstruct the Dockerfile. The first line of the Dockerfile, specifies the base image that we're going to use.
